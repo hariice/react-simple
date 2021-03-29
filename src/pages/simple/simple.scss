@@ -1,0 +1,50 @@
+.tab {
+    width: 100%;
+    height: 100%;
+    .container {
+        position: relative;
+        top: 40px;
+        left: 465px;
+        width: 400px;
+        height: 500px;
+        background: coral;
+        border: 1px solid black;
+        .search {
+            position: absolute;
+            top: 100px;
+            left: 65px;
+            text-align: center;
+            input {
+                margin-left: 10px;
+            }
+        }
+    }
+}
+
+.container .results {
+    position: absolute;
+    left: 62px;
+    top: 250px;
+}
+
+.zero button {
+    background: rgb(54, 128, 189);
+}
+
+.btn {
+    padding: 5px 12px;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    outline: none;
+    cursor: pointer;
+}
+
+.btn-yellow {
+    background: yellow;
+    color: #333;
+}
+
+.btn-blue {
+    background: rgb(66, 133, 244);
+}
